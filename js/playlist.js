@@ -11,12 +11,12 @@ var playList = [
     document.write(message);
   }
   
-  function printList( list ) {
+  function printSongs( songs ) {
     var listHTML = '<ol>';
-  for (var i = 0; i < playList.length; i += 1) {
-    listHTML += '<li>'+ list[i] + '</li>';
+  for (var i = 0; i < songs.length; i += 1) {
+    listHTML += '<li>'+ songs[i][0] + ' by ' songs[i][1] '</li>';
   }
     listHTML += '</ol>';
     print(listHTML);
 }
-printList(playList);
+printSongs(playList);
