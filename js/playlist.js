@@ -1,10 +1,10 @@
 var playList = [
-    'I Did It My Way',
-    'Respect',
-    'Imagine',
-    'Born to Run',
-    'Louie Louie',
-    'Maybellene'
+  ['Life Itself', 'Glass Animals']
+  ['Toxic', 'Brittany Spears']
+  ['Harder, Better, Faster, Stronger', 'Daft Punk']
+  ['The Apprentice', 'Gorillaz']
+  ["It's a Trip", "Joywave"]
+  ['Everybody', 'Don Broco']
   ];
   
   function print(message) {
